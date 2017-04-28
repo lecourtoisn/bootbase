@@ -12,7 +12,6 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>1.5.2.RELEASE</version>
-		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
 	<dependencies>
@@ -57,16 +56,16 @@
 		</plugins>
 	</build>
 
-	<!--<repositories>-->
-		<!--<repository>-->
-			<!--<id>spring-releases</id>-->
-			<!--<url>https://repo.spring.io/libs-release</url>-->
-		<!--</repository>-->
-	<!--</repositories>-->
-	<!--<pluginRepositories>-->
-		<!--<pluginRepository>-->
-			<!--<id>spring-releases</id>-->
-			<!--<url>https://repo.spring.io/libs-release</url>-->
-		<!--</pluginRepository>-->
-	<!--</pluginRepositories>-->
+	<repositories>
+		<repository>
+			<id>spring-releases</id>
+			<url>https://repo.spring.io/libs-release</url>
+		</repository>
+	</repositories>
+	<pluginRepositories>
+		<pluginRepository>
+			<id>spring-releases</id>
+			<url>https://repo.spring.io/libs-release</url>
+		</pluginRepository>
+	</pluginRepositories>
 </project>
